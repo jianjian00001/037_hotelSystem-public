@@ -1,6 +1,10 @@
-### 作者QQ：1556708905(支持修改、 部署调试、 支持代做毕设)
+---
+### 👉作者QQ ：1556708905 微信：zheng0123Long (支持修改、部署调试、定制毕设)
 
-#### 支持代做任何毕设论、接网站建设、小程序、H5、APP、各种系统等
+### 👉接网站建设、小程序、H5、APP、各种系统等
+
+### 👉选题+开题报告+任务书+程序定制+安装调试+ppt 都可以做
+---
 
 **毕业设计所有选题地址 [https://github.com/zhengjianzhong0107/allProject](https://github.com/zhengjianzhong0107/allProject)**
 
@@ -30,9 +34,11 @@
 - 用户管理
   
   展示用户的最后登录时间，可以删除不活跃用户以及发送邮件提醒
+
 - 订单管理
   
   订单查找（根据用户名来搜索）以及订单取消
+
 - 酒店，床型数据展示
 
 ## 二、所用技术
@@ -90,10 +96,11 @@
 ## 六、安装教程
 
 1. 使用Navicat或者其它工具，在mysql中创建对应名称的数据库，并导入项目的sql文件；
+
 2. 使用IDEA/Eclipse/MyEclipse导入项目，Eclipse/MyEclipse导入时，若为maven项目请选择maven;
    
    若为maven项目，导入成功后请执行maven clean;maven install命令，等待依赖下载成功；
-3. 修改application.yml里面的数据库配置，然后启动
-4. 运行项目，输入http://localhost:8087/ 登录
 
- 
+3. 修改application.yml里面的数据库配置，然后启动
+
+4. 运行项目，输入http://localhost:8087/ 登录
