@@ -20,7 +20,7 @@ spring:
     suffix: .html
 
   mail:
-    username: 931708230@qq.com
+    username: 1556708905@qq.com
 
     password:
     host: smtp.qq.com

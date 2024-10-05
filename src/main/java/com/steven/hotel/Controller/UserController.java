@@ -49,7 +49,7 @@ public class UserController {
         message.setSubject("【Hotel】注册验证码");
         email.setCode(CodeUtil.generateVerifyCode(6));
         message.setText("验证码是：" + email.getCode() + ",两分钟后超时，请确认是否本人操作");
-        message.setFrom("931708230@qq.com");
+        message.setFrom("1556708905@qq.com");
         session.setAttribute("code", email.getCode());
         Cookie newCookie = new Cookie("code", email.getCode());
         newCookie.setPath("/");
@@ -129,7 +129,7 @@ public class UserController {
             SimpleMailMessage message = new SimpleMailMessage();
             message.setSubject("【Hotel】提醒");
             message.setText("您的账户不活跃，请注意！！一个月未登录将删除您的账号");
-            message.setFrom("931708230@qq.com");
+            message.setFrom("1556708905@qq.com");
             message.setTo(email);
             mailSender.send(message);
         }
